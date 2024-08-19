@@ -1,0 +1,7 @@
+Data:2024-07-01 21:32:07
+Mensagem:Log
+StackTrace   em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em web_api.Repositories.SQLServer.Veiculo.Select() na C:\Users\User\Desktop\avaliacao4\api\web-avaliacao4\web-api\Repositories\SQLServer\Veiculo.cs:linha 41
+   em web_api.Controllers.VeiculosController.Get() na C:\Users\User\Desktop\avaliacao4\api\web-avaliacao4\web-api\Controllers\VeiculosController.cs:linha 24
